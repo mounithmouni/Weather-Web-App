@@ -21,23 +21,23 @@ async function checkWeather(city)
 
     if(data.weather[0].main == "Clouds")
     {
-        weatherIcon.src = "/HTML5/JavaScript/Images/clouds.png"
+        weatherIcon.src = "Images/clouds.png"
     }
     else if(data.weather[0].main == "Clear")
     {
-        weatherIcon.src = "/HTML5/JavaScript/Images/clear.png"
+        weatherIcon.src = "Images/clear.png"
     }
     else if(data.weather[0].main == "Rain")
     {
-        weatherIcon.src = "/HTML5/JavaScript/Images/rain.png"
+        weatherIcon.src = "Images/rain.png"
     }
     else if(data.weather[0].main == "Drizzle")
     {
-        weatherIcon.src = "/HTML5/JavaScript/Images/drizzle.png"
+        weatherIcon.src = "Images/drizzle.png"
     }
     else if(data.weather[0].main == "Mist")
     {
-        weatherIcon.src = "/HTML5/JavaScript/Images/mist.png"
+        weatherIcon.src = "Images/mist.png"
     }
 }
 
